@@ -1,0 +1,33 @@
+.graph,
+.pie {
+  position: relative;
+  display: inline-block;
+  margin: 2em;
+}
+
+.main-canvas {
+  background-color: rgb(255, 249, 250);
+  transform: scaleY(-1);
+}
+
+.label {
+  position: absolute;
+  top: -1.5em;
+  right: 0;
+  font-weight: bold;
+}
+
+.left-legend {
+  position: absolute;
+  top: 0;
+}
+.bottom-legend {
+  position: absolute;
+  left: 0;
+}
+
+.pie-labels-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
