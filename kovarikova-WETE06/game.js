@@ -1,8 +1,8 @@
 //variables to set
-const GRID_SIZE =1000;
-const CELL_SIZE = 10;
+const GRID_SIZE = 38;
+const CELL_SIZE = 15;
 const LINE_WIDTH = 1;
-const SPEED = 1000; //in milliseconds
+const SPEED = 100; //in milliseconds
 
 let intervalID;
 const resetBtn = document.querySelector(".reset");

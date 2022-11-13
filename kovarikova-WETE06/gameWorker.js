@@ -55,8 +55,8 @@ onmessage = (e) => {
   switch (msg.type) {
     case "start":
       [matrix, GRID_SIZE] = msg.data;
-
       break;
+
     case "tick":
       const changes = tickOfLife();
       postMessage(changes);

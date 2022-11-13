@@ -1,5 +1,3 @@
-//a funny start up pattern (will broke on smaller grid sizes)
-
 const pattern = [
   [5, 1],
   [5, 2],
