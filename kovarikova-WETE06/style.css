@@ -1,0 +1,47 @@
+body {
+  margin: 1em;
+}
+.game {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  gap: 0.5em;
+  grid-template-areas:
+    "canvas stats"
+    "controls .";
+}
+.game__canvas {
+  background-color: #1b1b1b;
+  grid-area: canvas;
+  justify-self: center;
+}
+
+.game__controls {
+  grid-area: controls;
+  justify-self: center;
+}
+.game__btn {
+  border: none;
+  border-radius: 1em;
+  padding: 1em 2em;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 200ms ease-in;
+  background-color: #ffdb57;
+}
+.game__btn:hover {
+  background-color: #d9b73d;
+}
+
+.stats {
+  grid-area: stats;
+  align-self: center;
+}
+
+.stats__header {
+  border-bottom: 5px solid #ffdb57;
+}
+.stats__gen-counter {
+  text-align: center;
+  width: 5ch;
+}

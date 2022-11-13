@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Game Of Life</title>
+  </head>
+  <body>
+    <div class="game">
+      <canvas class="game__canvas">A game</canvas>
+      <div class="game__controls">
+        <button class="game__btn start">Start</button>
+        <button class="game__btn stop">Stop</button>
+        <button class="game__btn reset">Reset (Empty)</button>
+      </div>
+      <div class="stats">
+        <table>
+          <caption class="stats__header">
+            Stats
+          </caption>
+          <tbody>
+            <tr>
+              <th scope="row">Num of generations:</th>
+              <td class="stats__gen-counter">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
